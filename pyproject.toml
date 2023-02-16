@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "nbcc_loading"
+authors = [{name = "Arun Kishore", email = "pypi@rpakishore.co.in"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "pandas",
+    "pytest"
+]
+
+[project.urls]
+Home = "https://github.com/rpakishore/nbcc-loading"

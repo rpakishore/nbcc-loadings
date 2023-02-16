@@ -19,6 +19,9 @@
 [![tests](https://github.com/rpakishore/nbcc-loadings/actions/workflows/test.yml/badge.svg)](https://github.com/rpakishore/nbcc-loadings/actions/workflows/test.yml)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rpakishore/nbcc-loadings)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rpakishore/nbcc-loadings)
+
+![PyPI - Format](https://img.shields.io/pypi/format/nbcc_loading) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/nbcc_loading)
+
 <!-- Table of Contents -->
 <h2>Table of Contents</h2>
 

@@ -1,24 +1,24 @@
 <!--- Heading --->
 <div align="center">
-  <h1>NBCC Loading</h1>
+  <h1>NBCC Loadings</h1>
   <p>
     Library to obtain NBCC Loadings
   </p>
 <h4>
-    <a href="https://github.com/rpakishore/nbcc-loading/">View Demo</a>
+    <a href="https://github.com/rpakishore/nbcc-loadings/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/rpakishore/nbcc-loading">Documentation</a>
+    <a href="https://github.com/rpakishore/nbcc-loadings">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/rpakishore/nbcc-loading/issues/">Report Bug</a>
+    <a href="https://github.com/rpakishore/nbcc-loadings/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/rpakishore/nbcc-loading/issues/">Request Feature</a>
+    <a href="https://github.com/rpakishore/nbcc-loadings/issues/">Request Feature</a>
   </h4>
 </div>
 <br />
 
-[![tests](https://github.com/rpakishore/nbcc-loading/actions/workflows/test.yml/badge.svg)]
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rpakishore/nbcc-loading)
-![GitHub last commit](https://img.shields.io/github/last-commit/rpakishore/nbcc-loading)
+[![tests](https://github.com/rpakishore/nbcc-loadings/actions/workflows/test.yml/badge.svg)](https://github.com/rpakishore/nbcc-loadings/actions/workflows/test.yml)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rpakishore/nbcc-loadings)
+![GitHub last commit](https://img.shields.io/github/last-commit/rpakishore/nbcc-loadings)
 <!-- Table of Contents -->
 <h2>Table of Contents</h2>
 
@@ -93,7 +93,7 @@ See `LICENSE.txt` for more information.
 
 Arun Kishore - [@rpakishore](mailto:pypi@rpakishore.co.in)
 
-Project Link: [https://github.com/rpakishore/ak-docx](https://github.com/rpakishore/nbcc-loading)
+Project Link: [https://github.com/rpakishore/ak-docx](https://github.com/rpakishore/nbcc-loadings)
 
 <!-- Acknowledgments -->
 ## 7. Acknowledgements

@@ -93,7 +93,7 @@ See `LICENSE.txt` for more information.
 
 Arun Kishore - [@rpakishore](mailto:pypi@rpakishore.co.in)
 
-Project Link: [https://github.com/rpakishore/ak-docx](https://github.com/rpakishore/nbcc-loadings)
+Project Link: [https://github.com/rpakishore/nbcc-loadings](https://github.com/rpakishore/nbcc-loadings)
 
 <!-- Acknowledgments -->
 ## 7. Acknowledgements

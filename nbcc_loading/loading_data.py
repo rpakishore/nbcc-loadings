@@ -2,11 +2,11 @@ import pandas as pd
 from pathlib import Path
 
 SNOW_FILES = {
-    2015: 'snow-2015.pickle'
+    2020: 'snow-2020.pkl'
 }
 
 WIND_FILES = {
-    2015: 'wind-2015.pickle'
+    2020: 'wind-2020.pkl'
 }
 
 SEISMIC_FILES = {
@@ -37,6 +37,7 @@ class Loading:
 
     def get(self, year: int) -> pd.DataFrame:
         "Returns the dataframe with snow load data for the year specified"
+        year = int(year)
         if not year in self.FILES.keys():
             raise Exception(f"{year} data is not available. Acceptable options include: {[yr for yr in self.FILES.keys()]}")
         return read_pickle_from_data( filename=self.FILES.get(year) )

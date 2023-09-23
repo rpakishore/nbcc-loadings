@@ -27,9 +27,7 @@
 
 - [1. About the Project](#1-about-the-project)
 - [2. Getting Started](#2-getting-started)
-  - [2.1. Prerequisites](#21-prerequisites)
-  - [2.2. Dependencies](#22-dependencies)
-  - [2.3. Installation](#23-installation)
+  - [2.1. Installation](#21-installation)
 - [3. Usage](#3-usage)
 - [4. Roadmap](#4-roadmap)
 - [5. License](#5-license)
@@ -44,30 +42,36 @@ A library to supply NBCC loadings, to be incorporated into other calculations
 <!-- Getting Started -->
 ## 2. Getting Started
 
-<!-- Prerequisites -->
-### 2.1. Prerequisites
-
-### 2.2. Dependencies
-
-The repo comes pre-compiled with all dependencies.
-
 <!-- Installation -->
-### 2.3. Installation
+### 2.1. Installation
 
 Install from pypi
 
 ```bash
-python -m venv .venv
-
-.venv\Scripts\activate
-
 pip install nbcc_loading
 ```
 <!-- Usage -->
 ## 3. Usage
 
 ```python
+# Load required modules
+from nbcc_loading import Snow, Wind
 
+# Set the year
+snow = Snow.set_year(year=2015) 
+## Can also directly call instance, such as
+wind = Wind(2015)
+
+# Get the 3 closest stations to specified coordinates
+s_loads = snow.by_gps(latitude=49.2508744, longitude=-122.9032094, data_points=3)
+w_load = wind.by_location(city='Agassiz')
+
+# Extract Station Information
+s_load = s_loads[0]
+s_load.Ss # Snow Load
+s_load.Sr # Rain Load
+w_load.yr10 # 10-year return wind
+w_load.yr50 # 50-year return wind
 ```
 
 <!-- Roadmap -->
@@ -75,11 +79,11 @@ pip install nbcc_loading
 
 - [ ] Snow Loadings
   - [x] NBCC 2020
-  - [ ] NBCC 2015
+  - [x] NBCC 2015
   - [ ] NBCC 2010
 - [ ] Wind Loadings
   - [x] NBCC 2020
-  - [ ] NBCC 2015
+  - [x] NBCC 2015
   - [ ] NBCC 2010
 - [ ] Seismic Loadings
   - [ ] NBCC 2020
@@ -89,7 +93,7 @@ pip install nbcc_loading
 <!-- License -->
 ## 5. License
 
-See `LICENSE.txt` for more information.
+See `LICENSE` for more information.
 
 <!-- Contact -->
 ## 6. Contact
@@ -102,6 +106,4 @@ Project Link: [https://github.com/rpakishore/nbcc-loadings](https://github.com/r
 ## 7. Acknowledgements
 
 - [Awesome README Template](https://github.com/Louis3797/awesome-readme-template/blob/main/README-WITHOUT-EMOJI.md)
-- [Banner Maker](https://banner.godori.dev/)
 - [Shields.io](https://shields.io/)
-- [Carbon](https://carbon.now.sh/)

@@ -8,11 +8,17 @@ authors = [{name = "Arun Kishore", email = "pypi@rpakishore.co.in"}]
 readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
-requires-python = ">=3.9"
+requires-python = ">=3.11.0"
 dynamic = ["version", "description"]
 dependencies = [
     "pandas",
-    "pytest"
+    "geopy"
+]
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "ipykernel",
+    "pandasgui"
 ]
 
 [project.urls]
